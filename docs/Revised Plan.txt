@@ -1,0 +1,19 @@
+Dota 2 Team Composition
+
+Features:
+  - Hero Benchmarks (Percentile?)
+  - GPM, XPM, KPM, LHM, HDM, HHM, TD
+  - 35 features per team
+
+Try to boost performance
+  - Clustering heroes
+  - Try to derive some semantic meaning behind clusters
+  - See if classification improves using cluster data
+
+  - Additional feature engineering 
+  - Principle Component Analysis?
+  - Normalization (zero mean, same variances)
+
+Future improvements
+  - Consider additional percentiles for benchmarks
+  - Consider game as a whole (70 features per game)

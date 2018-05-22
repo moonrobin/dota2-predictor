@@ -1,0 +1,24 @@
+Dota 2 Machine Learning Predictor
+  - To what extent can a machine learning model predict the winner of a match?
+  - What are the primary contributors to whether a team wins or not?
+
+Use Opendota API + Dotabuff scraping
+
+Features
+  - 5x Player Slot for each team, Idea: use each match as 2 points (1 for winner, 1 for loser)
+  - Hero: Scrape from Dotabuff Site
+    - Win%
+    - Pick%
+    - Win% in rank
+    - Pick% in rank
+    - Win% in position
+    - Average GPM on hero
+    - Melee or ranged
+  - Player statistics: Use Opendota API
+    - Last 5 games win rate
+    - Win rate on hero in last 15 games
+    - Winrate on said hero
+    - Hero games played
+    - MMR difference from match average (fill in missing numbers in a smart way)
+    - Position
+    - Number of games in last 15 days
