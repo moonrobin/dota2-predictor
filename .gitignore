@@ -105,3 +105,6 @@ venv.bak/
 
 # csv data files
 *.csv
+
+# .pkl dataframe dumps
+*.pkl
